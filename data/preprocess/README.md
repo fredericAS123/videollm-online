@@ -3,7 +3,7 @@
 #### Sample video frames to 2 FPS and max resolution 384 (with zero padding)
 
 ```
-python -m data.preprocess.ffmpeg --num_gpus 8 --frame_fps 2 --frame_resolution 384 --num_tasks 16 --video_dir datasets/ego4d/v2/full_scale
+python -m data.preprocess.ffmpeg --frame_fps 2 --frame_resolution 384 --num_tasks 16 --video_dir datasets/ego4d/v2/full_scale
 ```
 
 - Please run the script in ```videollm-online/``` root folder.
